@@ -10,6 +10,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy" :"webpack-cli"
   },
-  "author": "roryj@amazon.com"
+  "author": "roryj@amazon.com",
+   "devDependencies": {
+    "@types/aws-lambda": "^8.10.33",
+    "aws-sam-webpack-plugin": "^0.3.1",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
 }
 9f946bf0ec215c9dff25878806f8ad6a70b127bd
