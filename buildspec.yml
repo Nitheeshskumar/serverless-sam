@@ -10,7 +10,7 @@ phases:
   build:
     commands:
       - npm install
-      - aws cloudformation package --template $INPUT_FILE --s3-bucket $S3_BUCKET --output-template packaged.yaml
+      - aws cloudformation package --template $INPUT_FILE --s3-bucket $S3_BUCKET --output-template post-yaml.yaml
 artifacts:
   files:
    - post-saml.yaml
