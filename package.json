@@ -8,6 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy" :"webpack-cli"
   },
   "author": "roryj@amazon.com"
 }
+9f946bf0ec215c9dff25878806f8ad6a70b127bd
